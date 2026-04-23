@@ -167,8 +167,8 @@ function interruptRender() {
     running = false
 }
 
-const WIDTH_DIVISOR = 4
-const HEIGHT_DIVISOR = 1.5
+const WIDTH_DIVISOR = 8
+const HEIGHT_DIVISOR = 3.2
 let cameraX = 0
 let cameraY = 0
 
