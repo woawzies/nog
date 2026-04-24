@@ -14,6 +14,7 @@ A character grid-oriented note taking web app with scuffed vim motions.
 | `BOX`               |
 | `ARROW`             |
 | `COMMAND`           |
+
 `H, J, K, L` to move cursor around in `NORMAL`, `VISUAL`, `PASTE-PENDING`, `HIGHLIGHT` , `HIGHLIGHT-PENDING`, `BOX`, and `ARROW` modes.  
 Arrow keys to move around in `INSERT` and `COMMAND` modes.
 
