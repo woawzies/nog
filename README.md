@@ -23,3 +23,5 @@ A character grid-oriented note taking web app with scuffed vim motions.
 |---------|-------------------------------------------------------------------------------------------------|
 | Save    | Saves note to localDB.                                                                          |
 | Export  | Generates a string that contains the note in an encoded format, import **not** implemented yet. |
+
+Hosted [here] (https://woawzies.github.io/nog/)
