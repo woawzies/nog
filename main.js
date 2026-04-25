@@ -167,8 +167,8 @@ function interruptRender() {
     running = false
 }
 
-const WIDTH_DIVISOR = 8
-const HEIGHT_DIVISOR = 3.2
+const WIDTH_DIVISOR = 3.5
+const HEIGHT_DIVISOR = 1.5
 let cameraX = 0
 let cameraY = 0
 
@@ -593,10 +593,10 @@ function render() {
     cameraX = lerp(cameraX, targetCameraX, followSpeed)
     cameraY = lerp(cameraY, targetCameraY, followSpeed)
     
-	editor.clearRect(0, 0, editorCanvas.width, editorCanvas.height)
+	editor.clearRect(0, 0, window.innerWidth, window.innerHeight)
 
-	const width = editorCanvas.width
-	const height = editorCanvas.height
+	const width = window.innerWidth
+	const height = window.innerHeight
 
 	// WORLD camera (NOT pixel camera)
 	const camX = cameraX
